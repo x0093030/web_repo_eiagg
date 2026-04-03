@@ -1,0 +1,38 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+/* Write your CSS below, don't change the rules above. */
+
+/* Tag selector*/
+h2{
+  color:red;
+}
+p{
+  color:blue;
+}
+
+/* Class selector*/
+.note2{
+  color:gray;
+}
+.note3{
+  color:green;
+}
+
+/*Id selector*/
+#id-selector2-demo{
+  color: blueviolet;
+}
+
+/*Attribute selector*/
+p[draggable="true"]{
+  color:aqua;
+}
+
+/*
+*{
+  color:black;
+}
+*/

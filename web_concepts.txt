@@ -1,0 +1,117 @@
+
+##################### section 01 #################
+web site files:
+    html
+        content of the web site.
+        bricks of a house.
+    css
+        styling of a house.
+        color of a wall.
+    js (java script)
+        functionality 
+##################### section 02 #################
+what is html?
+    Hyper Text Markup Language
+html tags:
+    Headings {h1,h2,p, etc}, Address, Highlighting, img, footer.
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements
+    
+##################### section 03 #################
+The anchor element
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a
+
+##################### section 04 #################
+https://github.com/
+
+Boilerplate is a common structure of a html page
+
+##################### section 05 #################
+css
+    Cascase Style Sheet. 
+    How thing should look in  a web site.
+    <font> tags, font and color
+    <center> 
+ Adding css to a htmlm file:
+    1.- Inline <h1 style=" ">Hello </h1>
+    2.- Internal <head><style> type="text.css"> CSS code </style></head>
+    3.- External <link href="style.css" rel="stylesheet"/>
+
+    property:value  -> color:blue
+    Tag Selector -> will apply to all  elements in html file. h1, h2, p, a, etc.
+    Class Selector -> .class_name
+    Id Selector ->  #Id_name
+    Attribute Selector ->  p[attrubute="value"]
+
+##################### section 06 #################
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color
+https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+https://appbrewery.github.io/css-inspection/
+https://chromewebstore.google.com/detail/pesticide/bakpbgckdnepkmkeaiomhmfcnejndkbi?pli=1
+
+
+##################### section 07 #################
+CSS (Cascading Style Sheets)
+
+Group -> apply to both selectors
+    selector , selector {
+        color: white;
+    }
+
+Child  -> apply to a direct child of left side
+    selector > selector{
+        color:white;
+    }
+
+Descendant -> Apply to a descendent of ;eft side.
+    selector selector{
+        color: white;
+    }
+
+Positioning
+    Static, current location.
+    Relative, relative to its suposed location or nearest positioned ancestor.
+    Absolute, top left corner of webpage.
+        Z Index, determine if it is diplayed infront or in the background.
+    Fixed,  top left corner of webpage.
+
+##################### section 08 #################
+
+Display Property
+    h2 {
+        display:    block -> next element continues in the next line.
+                    inline -> next element continues in the same line.
+                    inline-block -> next element continues in the same line.
+    }
+
+CSS Float
+    Wrapping text using float and clear.
+    img {
+        float:left | right
+    }
+
+Responsive Website
+    Media Queries
+    CSS Grid
+    CSS Flexbox
+    External Frameworks (Bootstrap)
+
+px = pixels
+
+
+##################### section 09 #################
+CSS Flexbox
+
+
+##################### VS code shortcuts #################
+
+Fold folds the innermost uncollapsed region at the cursor:
+    Ctrl + Shift + [ on Windows and Linux
+
+Unfold unfolds the collapsed region at the cursor:
+    Ctrl + Shift + ] on Windows and Linux
+
+Fold All folds all regions in the editor:
+    Ctrl + K, Ctrl + 0 (zero) on Windows and Linux
+
+Unfold All unfolds all regions in the editor:
+    Ctrl + K, Ctrl + J on Windows and Linux
