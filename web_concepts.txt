@@ -115,3 +115,7 @@ Fold All folds all regions in the editor:
 
 Unfold All unfolds all regions in the editor:
     Ctrl + K, Ctrl + J on Windows and Linux
+---------------------------------------------------------
+section 19
+    CDN Content Delivery Network
+    Bootstrap module for further details
