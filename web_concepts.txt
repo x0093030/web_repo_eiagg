@@ -119,3 +119,56 @@ Unfold All unfolds all regions in the editor:
 section 19
     CDN Content Delivery Network
     Bootstrap module for further details
+    npm init -> create package .json file
+    npm Install
+    npm nodemon -> detect changes and executes js again (node solution.js)
+
+---------------------------------------------------------
+section 24
+    Creating an Express Server:
+    1.- Create a Directory
+    2.- Create a index.js file
+    3.- Initialise NPM
+    4.- Install the Express package
+    5.- Write Server application in index.js
+    6.- Start Server
+
+    netstat -ano | findstr "LISTENING"
+
+Request Vocabulary:
+    1.- GET: Request a resoruce from server.
+    2.- POST: Sending a resoruce to server.
+    3.- PUT: Replace a resorce.
+    4.- PATCH: Patch up a resource.
+    5.- DELETE:
+---------------------------------------------------------
+section 25
+    Templating: Send information from server JS to  html.
+    Tool used EJS (Embedded Java Script) *.ejs
+
+    ejs tags:
+        <%=  %>
+        <%   %>
+        <%-  %>
+    
+    <%- include("headers.ejs") %>
+    <%- include("footer.ejs") %>
+    
+    git push origin main -u 
+    
+    -> working directory
+        |-> git add 
+            -> Staging Area
+                |-> git commmit 
+                    -> Local Repository
+                        |-> git push 
+                            -> Remote Repository
+
+
+Fork:	Copies a repo to your GitHub account (online).
+Clone	Copies a repo (forked or original) to your local machine.
+
+
+Most workflows:
+Fork → Clone → Edit → Commit → Push → Pull Request
+
