@@ -1,43 +1,51 @@
 
 Basic Commands
-Initialize a Repository:
-                git init - Initializes a new Git repository in the current directory.
-Clone a Repository:     
-                git clone <repository-url> - Clones a remote repository to your local machine.
+    Initialize a Repository:
+                    git init - Initializes a new Git repository in the current directory.
+    Clone a Repository:     
+                    git clone <repository-url> - Clones a remote repository to your local machine.
 
 Staging and Committing
-Check Status:           
-                git status - Displays the state of the working directory and staging area.
-Add Changes:            
-                git add <file> - Stages a specific file for commit.
-                git add . - Stages all changes in the current directory.
-Commit Changes:
-                git commit -m "commit message" - Commits the staged changes with a message.
+    Check Status:           
+                    git status - Displays the state of the working directory and staging area.
+    Add Changes:            
+                    git add <file> - Stages a specific file for commit.
+                    git add . - Stages all changes in the current directory.
+    Commit Changes:
+                    git commit -m "commit message" - Commits the staged changes with a message.
+
+                    git rm --cached -r .  -> this removes all files in stage area.
+                    
+                    Back merge can be done with:
+                    git stash -> saves current changes
+                    git pull -> updates repository to current changes
+                    git stash pop -> Recover local changes
 
 Branching and Merging
-Create a New Branch:
-                git branch <branch-name> - Creates a new branch.
-Switch Branches:
-                git checkout <branch-name> - Switches to the specified branch.
-Merge Branches:
-                git merge <branch-name> - Merges the specified branch into the current branch.
+    Create a New Branch:
+                    git branch <branch-name> - Creates a new branch.
+    Switch Branches:
+                    git checkout <branch-name> - Switches to the specified branch.
+    Merge Branches:
+                    git merge <branch-name> - Merges the specified branch into the current branch.
 
 Remote Repositories
-View Remote Repositories:
-                git remote -v - Lists the remote repositories associated with the local repository.
-Push Changes:
-                git push origin <branch-name> - Pushes the local branch to the remote repository.
-Pull Changes:
-                git pull origin <branch-name> - Fetches and merges changes from the remote branch.
+    View Remote Repositories:
+                    git remote -v - Lists the remote repositories associated with the local repository.
+    Push Changes:
+                    git push origin <branch-name> - Pushes the local branch to the remote repository.
+    Pull Changes:
+                    git pull origin <branch-name> - Fetches and merges changes from the remote branch.
 
 Undoing Changes
-Revert Changes:
-                git checkout -- <file> - Discards changes in the working directory.
-Reset Staging Area:
-                git reset <file> - Unstages a file while retaining changes in the working directory.
+    Revert Changes:
+                    git checkout -- <file> - Discards changes in the working directory.
+    Reset Staging Area:
+                    git reset <file> - Unstages a file while retaining changes in the working directory.
 
 Viewing History
-View Commit History:
-                git log - Displays the commit history for the current branch.
-View Changes:
-                git diff - Shows changes between the working directory and the staging area.
+    View Commit History:
+                    git log - Displays the commit history for the current branch.
+    View Changes:
+                    git diff - Shows changes between the working directory and the staging area.
+
